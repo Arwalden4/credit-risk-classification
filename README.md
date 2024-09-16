@@ -26,8 +26,8 @@ The stages of this machine learning process consisted of the following:
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-    * Accuracy: The accuracy score for the logistic regression model is .99, meaning it is 99% correct in classifying its predicted values 99%.
-    * The precision score for the model is 1.00 for predicting healthy loans ('0'), meaning it will always classify positives correctly with no false positives. The model has a precision score of .87,  indicating medium reliability for identifying high-risk loans with some false negatives.
+    * Accuracy: The accuracy score for the logistic regression model is .99, meaning it is 99% correct in classifying its predicted values.
+    * The precision score for the model is 1.00 for predicting healthy loans ('0'), meaning it will always classify these positives correctly with no false positives. The model has a precision score of .87 for predicting high-risk loans ('1's),  indicating a medium reliability score for identifying high-risk loans with some false negatives.
     * The recall score for healthy loans ('0's) in the model is 1.00, meaning it invariably predicts the status of healthy loans correctly. For high-risk loans ('1's), the model has a score of .95, indicating a very high reliability to predict high-risk loans correctly with few false negatives.
 
 ## Summary
