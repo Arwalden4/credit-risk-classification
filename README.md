@@ -11,7 +11,7 @@ In this section, describe the analysis you completed for the machine learning mo
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
-* 
+
 This analysis generated a machine learning model consisting of logistic regression in order to predict the credit risk associated with loans. The dataset covered such financial data as loan sizes, interest rates, borrower income, debt-to-income ratios, and total debt. The model used this data to predict the status of loans as either healthy or risky using a logistic regression algorithm from the scikit-learn machine learning library in Python.
 
 The stages of this machine learning process consisted of the following:
