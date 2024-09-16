@@ -11,8 +11,11 @@ In this section, describe the analysis you completed for the machine learning mo
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+* 
 This analysis generated a machine learning model consisting of logistic regression in order to predict the credit risk associated with loans. The dataset covered such financial data as loan sizes, interest rates, borrower income, debt-to-income ratios, and total debt. The model used this data to predict the status of loans as either healthy or risky using a logistic regression algorithm from the scikit-learn machine learning library in Python.
+
 The stages of this machine learning process consisted of the following:
+
 * Splitting the dataset into training and testing sets.
 * Creating a logistic regression model (LogisticRegression) using the training data.
 * Saving predictions on the testing labels of X and y respectively.
@@ -33,6 +36,7 @@ Summarize the results of the machine learning models, and include a recommendati
 
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
 The classification report shows that it is fairly accurate in predicting results trained using the original data. The model does indicate some shortcomings with predicting high-risk loans, with a moderately reliable accuracy score of which the consistency can be improved. The performance of the model and its reliability is contingent on which data we would like to predict consistently. We can only identify healthy loan applications with perfect reliability, but not high-risk loans with the same degree of accuracy. This means that the company which requires this analysis will be using a model which may falsely classify high-risk loans as acceptable or healthy, ultimately threatening the company with potential losses for such applications. Therefore, the success of this model depends on what results the company would like to prioritize in its analyses and how well-equipped its financial models should be to identify toxic loans which might undermine the profitability of the firm in the long-term.
 
 
